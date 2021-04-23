@@ -1,4 +1,11 @@
 # CF7-Test-Forms
 CF7 Test Forms Plugin
 
-This plugin enables the <code>skip_mail</code> code snippet of Contact Form 7. Allows logged-in Admin Users to test the forms without sending emails but still recording the inputs of the forms.
+A simple plugin for Contact form 7
+
+Admin-only settings:
+-Disables sending of mail to receiver using <code>skip_mail</code>
+-Custom Receiver to all forms when testing while logged in
+
+Other features:
+-Filters forms when Cyrillic alphabet ( Russian text ) or any links were found on the text-areas
