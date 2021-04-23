@@ -1,0 +1,23 @@
+.cf7-indicator:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.cf7-indicator.cf7-enabled:before{
+    background-color: green;
+}
+.cf7-indicator.cf7-disabled:before{
+    background-color: red;
+}
+table.cf7-test-table {
+    border: 1px solid #333;
+    padding: 10px;
+    width: 600px;
+}
+table.cf7-test-table td {
+    height: 60px;
+}
